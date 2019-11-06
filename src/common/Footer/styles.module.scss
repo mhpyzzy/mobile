@@ -1,0 +1,28 @@
+@import '../../style/index.scss';
+
+.Footer {
+    background: #001B56;
+    padding: size(58) size(30) size(90);
+    color: #fff;
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: fs(16);
+
+        .flex_item {
+            flex: 1;
+            margin-bottom: size(12);
+
+            &.title {
+                opacity: 0.5;
+                margin-bottom: size(20);
+            }
+        }
+    }
+
+    .title {
+        opacity: 0.5;
+    }
+}
