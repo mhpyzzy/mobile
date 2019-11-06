@@ -1,0 +1,18 @@
+@import './var';
+
+@font-face {
+    font-family: "NotoBold";
+    src: url('/fonts/NotoSerif-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+
+div,
+input,
+p,
+a {
+    box-sizing: border-box;
+}

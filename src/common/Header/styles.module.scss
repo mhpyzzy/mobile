@@ -1,0 +1,25 @@
+@import '../../style/index.scss';
+
+.Header {
+    height: size(78);
+    padding: size(26) size(31);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: $blue;
+
+    .logo {
+        width: size(124);
+    }
+
+    .right {
+
+        .line {
+            width: size(25);
+            height: 2PX;
+            background: #fff;
+            margin: 4PX 0;
+        }
+    }
+}

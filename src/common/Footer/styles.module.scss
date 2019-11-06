@@ -2,27 +2,127 @@
 
 .Footer {
     background: #001B56;
-    padding: size(58) size(30) size(90);
     color: #fff;
+    font-size: fs(16);
 
-    .flex {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: fs(16);
+    .content {
+        padding: size(58) size(30) size(90);
 
-        .flex_item {
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .item {
             flex: 1;
-            margin-bottom: size(12);
+            margin-bottom: size(15);
 
             &.title {
                 opacity: 0.5;
                 margin-bottom: size(20);
+                font-weight: 600;
+            }
+        }
+
+        .Legal {
+            margin-top: size(46);
+        }
+
+        .connect {
+            margin-top: size(46);
+            margin-bottom: size(15);
+            opacity: 0.5;
+            font-weight: 600;
+        }
+
+        .email {
+            margin-bottom: size(32);
+            color: #3BE4C1
+        }
+
+        .icon_group {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                width: size(22);
+                height: size(22);
+                margin-right: size(46);
+            }
+        }
+
+        .letter {
+            margin-top: size(45);
+
+            .letter_title {
+                margin-bottom: size(10);
+                opacity: 0.5;
+                font-weight: 600;
+            }
+
+            .input {
+                background: transparent;
+                border: 1px solid #fff;
+                width: 100%;
+                // height: size(40);
+                height: 40PX;
+                padding: 0 size(23);
+                color: #FFFFFFB3;
+
+                &::-webkit-input-placeholder {
+                    /* Chrome/Opera/Safari */
+                    color: #FFFFFFB3;
+                }
+
+                &::-moz-placeholder {
+                    /* Firefox 19+ */
+                    color: #FFFFFFB3;
+                }
+
+                &:-ms-input-placeholder {
+                    /* IE 10+ */
+                    color: #FFFFFFB3;
+                }
+
+                &:-moz-placeholder {
+                    /* Firefox 18- */
+                    color: #FFFFFFB3;
+                }
+            }
+
+            .btn {
+                background: #3BE4C1;
+                width: 100%;
+                // height: size(40);
+                height: 40PX;
+                color: #001B56;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                margin-top: size(23);
             }
         }
     }
 
-    .title {
-        opacity: 0.5;
+    .istox {
+        font-size: fs(13);
+        background: #0000004D;
+        padding: size(40) size(30) size(90);
+
+        .reserved {
+            margin-bottom: size(18);
+            opacity: 0.5;
+        }
+
+        .text {
+            margin-bottom: size(18);
+            opacity: 0.5;
+        }
+
+        .protected {
+            opacity: 0.5;
+        }
     }
 }
